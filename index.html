@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            background-color:black;
+        }
+        .nev{
+            width: 100%;
+            height: 50px;
+            background-color:black;
+            margin-top:0px;
+            
+        }
+        .nev a{
+            float: left;
+            text-align: center;
+            font-family:'Times New Roman', Times, serif ;
+            padding:14px 16px;
+            color: whitesmoke;
+            text-decoration: none;
+            font-size: 18px;
+        }
+        .nev a:hover{
+            text-decoration: double;
+            color:rgb(185, 48, 243);
+        }
+        .nev a.active{
+            color:rgb(185, 48, 243);
+        }
+        .pic{
+            height: 300px;
+            width: 300px;
+            border-radius: 300px;
+            margin-left: 20%;
+            margin-top: 7%;
+            background-color: whitesmoke;
+        }
+        .circle{
+            height: 250px;
+            width: 250px;
+            border-radius: 250px;
+            margin-top:-18%;
+            margin-left:-7%;
+            background-color:aqua;
+            opacity: 0.8;
+            transition: 2s;
+        }
+        .circle:hover{  
+            margin-left:-20%;   
+            margin-top: -35.5%;
+        }
+        .square{  
+            height:200px;
+            width:200px;
+            border-radius: 0px;
+            background-color:rgb(140, 62, 224);
+            margin-top:-10%;
+            margin-left:11%;
+            opacity: 0.7;
+        }
+        .name{
+          font-size: 100px;
+          font-family: 'Times New Roman', Times, serif;  
+          color:whitesmoke;
+          margin-left:50%;
+          margin-top:-27%;
+        }
+        .content{
+            background-color:rgb(140, 62, 224);
+            height:400px;
+            width: 250px;
+            border-radius: 10px;
+            margin-left:52%;
+            margin-top:1%;
+            text-align: center;
+            color: whitesmoke;
+            font-size:18px;
+            padding: 5px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="nev" style="margin-top: 0%; margin-left: 1%; margin-right: 75%;">
+        <a class="active" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house-door-fill" viewBox="0 0 16 16">
+            <path d="M6.5 14.5v-3.505c0-.245.25-.495.5-.495h2c.25 0 .5.25.5.5v3.5a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.146-.354L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293L8.354 1.146a.5.5 0 0 0-.708 0l-6 6A.5.5 0 0 0 1.5 7.5v7a.5.5 0 0 0 .5.5h4a.5.5 0 0 0 .5-.5Z"/>
+          </svg>Home</a>
+        <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
+            <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3Zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"/>
+          </svg>About Us</a>
+        <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-fill" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+          </svg>Contact Us</a>
+        <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-file-code-fill" viewBox="0 0 16 16">
+            <path d="M12 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zM6.646 5.646a.5.5 0 1 1 .708.708L5.707 8l1.647 1.646a.5.5 0 0 1-.708.708l-2-2a.5.5 0 0 1 0-.708l2-2zm2.708 0 2 2a.5.5 0 0 1 0 .708l-2 2a.5.5 0 0 1-.708-.708L10.293 8 8.646 6.354a.5.5 0 1 1 .708-.708z"/>
+          </svg>Work</a>
+        </div>
+        <div class="pic">
+            <img src="my1.JPG" style="height: 300; width: 300px; border-radius: 300px;">
+            <div class="circle"></div></div>
+            <div class="square"></div>
+            <div class="name">Hetavi Patel...</div>
+            <div class="content"><P>Hey, this is my first website. I am from Information Technology departmnet.
+                I am studing at Parul University,Vadodara,Gujarat,India.
+            </P></div>
+
+</body>
+</html>
